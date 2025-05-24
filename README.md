@@ -1,18 +1,25 @@
-# 🌐 Calip - WIP 
+# 🌐 Calip
 
-Calip is a CLI tool to deal with networking stuff such as conversion of ip addresses in binary format.
-It's a project for practicing my Go skills so there's nothing really fancy, just me learning...
+Calip is a small CLI tool to deal with networking stuff such as
+ip addresses' conversion in binary format, subnet
+calculation, etc.
 
 ## 📔 Features
 - Convert each byte of an IPv4 into binary
+- More soon...
 
 ## 🔨 Building
-You can build it using `go`:
-```bash
-$ go build .
-```
-
-Or you can build it with `nix`:
+#### `nix`:
 ```bash
 $ nix build .#
+```
+
+#### `cabal`:
+```bash
+$ cabal build
+```
+
+#### `stack`:
+```bash
+$ stack build
 ```

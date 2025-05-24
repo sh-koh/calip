@@ -1,5 +1,5 @@
-.direnv
-result
-vendor
-tmp
-air
+.direnv/
+result/
+dist-newstyle/
+.stack-work/
+Session.vim
